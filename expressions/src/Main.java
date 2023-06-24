@@ -12,7 +12,6 @@ public class Main {
         //parser.addParseListener(listener);
         ParseTree tree = parser.start();
         ParseTreeWalker.DEFAULT.walk(listener, tree);
-        System.out.println("My parser has executed Order 66");
 
     }
 }
